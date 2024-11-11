@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<application:Application xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:application="http://www.eclipse.org/ui/2010/UIModel/application" xmlns:basic="http://www.eclipse.org/ui/2010/UIModel/application/ui/basic" xmlns:menu="http://www.eclipse.org/ui/2010/UIModel/application/ui/menu" xmi:id="_c3AF0MjYEeSyMNYR5xypkQ" elementId="org.eclipse.e4.application" bindingContexts="_c3AF2cjYEeSyMNYR5xypkQ">
+  <children xsi:type="basic:TrimmedWindow" xmi:id="_c3AF0cjYEeSyMNYR5xypkQ" elementId="org.eclipse.e4.window.main" label="Uniud C2PA manifest viewer" iconURI="platform:/plugin/c2pa/icons/logo_16.png" width="1440" height="900">
+    <children xsi:type="basic:PartSashContainer" xmi:id="_OfYNgJtqEe-37snScggf-g" elementId="c2pa.partsashcontainer.0" horizontal="true">
+      <children xsi:type="basic:Part" xmi:id="_rLOf8JciEe-1fLZH3mxQvQ" elementId="it.uniud.c2pa.part.image" containerData="40" contributionURI="bundleclass://c2pa/it.uniud.c2pa.part.ImagePart" label="Image"/>
+      <children xsi:type="basic:Part" xmi:id="_rrAMMJciEe-1fLZH3mxQvQ" elementId="it.uniud.c2pa.part.manifeststore" containerData="60" contributionURI="bundleclass://c2pa/it.uniud.c2pa.part.ManifestPart" label="Manifest store"/>
+    </children>
+    <mainMenu xmi:id="_O4xhgJcjEe-1fLZH3mxQvQ" elementId="it.uniud.c2pa.menu.1">
+      <children xsi:type="menu:Menu" xmi:id="_Y0QdwJckEe-1fLZH3mxQvQ" elementId="it.uniud.c2pa.menu.file" label="&amp;File" iconURI="">
+        <children xsi:type="menu:HandledMenuItem" xmi:id="_Pk8D8JcjEe-1fLZH3mxQvQ" elementId="it.uniud.c2pa.handledmenuitem.file" label="Apri immagine..." iconURI="platform:/plugin/c2pa/icons/picture.png" command="_VtAOYJcjEe-1fLZH3mxQvQ"/>
+        <children xsi:type="menu:MenuSeparator" xmi:id="_duivMJdgEe-umoVaBn_aLw" elementId="it.uniud.c2pa.menuseparator.0"/>
+        <children xsi:type="menu:HandledMenuItem" xmi:id="_eTMUYJdgEe-umoVaBn_aLw" elementId="it.uniud.c2pa.handledmenuitem.esci" label="Esci" iconURI="platform:/plugin/c2pa/icons/logout.png" command="_HckQAJdiEe-umoVaBn_aLw"/>
+      </children>
+      <children xsi:type="menu:Menu" xmi:id="_RSNSwJtwEe-37snScggf-g" elementId="c2pa.menu.operazioni" label="&amp;Operazioni">
+        <children xsi:type="menu:HandledMenuItem" xmi:id="_TgMNQJtwEe-37snScggf-g" elementId="c2pa.handledmenuitem.verificaasserzioni" label="Verifica asserzioni" iconURI="platform:/plugin/c2pa/icons/check.png" tooltip="Verifica asserzioni" command="_dA6SMJtHEe-37snScggf-g"/>
+        <children xsi:type="menu:HandledMenuItem" xmi:id="_axgewJtwEe-37snScggf-g" elementId="c2pa.handledmenuitem.verificafirma" label="Verifica firma" iconURI="platform:/plugin/c2pa/icons/signature.png" tooltip="Verifica firma" command="_m4AocJtuEe-37snScggf-g"/>
+      </children>
+      <children xsi:type="menu:Menu" xmi:id="_vpkJsJ8IEe-e27bIaK0O9A" elementId="c2pa.menu.help" label="?">
+        <children xsi:type="menu:HandledMenuItem" xmi:id="_yhxs8J8IEe-e27bIaK0O9A" elementId="c2pa.handledmenuitem.about" label="Informazioni su Uniud C2PA manifest viewer..." iconURI="platform:/plugin/c2pa/icons/about.png" command="_q_xJgJ8HEe-e27bIaK0O9A"/>
+      </children>
+    </mainMenu>
+    <trimBars xmi:id="_V1-5kJtoEe-37snScggf-g" elementId="c2pa.trimbar.1">
+      <children xsi:type="menu:ToolBar" xmi:id="_WwgWMJtqEe-37snScggf-g" elementId="c2pa.toolbar.1">
+        <children xsi:type="menu:HandledToolItem" xmi:id="_0mxl4JtrEe-37snScggf-g" elementId="c2pa.handledtoolitem.apriimmagine" label="Apri immagine..." iconURI="platform:/plugin/c2pa/icons/picture.png" command="_VtAOYJcjEe-1fLZH3mxQvQ"/>
+        <children xsi:type="menu:ToolBarSeparator" xmi:id="_8THmgJtrEe-37snScggf-g" elementId="c2pa.toolbarseparator.0"/>
+        <children xsi:type="menu:HandledToolItem" xmi:id="_W6dRUJtHEe-37snScggf-g" elementId="c2pa.handledtoolitem.verificaasserzioni" label="Verifica asserzioni" iconURI="platform:/plugin/c2pa/icons/check.png" tooltip="Verifica asserzioni" command="_dA6SMJtHEe-37snScggf-g"/>
+        <children xsi:type="menu:HandledToolItem" xmi:id="_JGsKMJttEe-37snScggf-g" elementId="c2pa.handledtoolitem.verificafirma" label="Verifica firma" iconURI="platform:/plugin/c2pa/icons/signature.png" tooltip="Verifica firma" command="_m4AocJtuEe-37snScggf-g"/>
+      </children>
+    </trimBars>
+  </children>
+  <handlers xmi:id="_ZeVyAJcjEe-1fLZH3mxQvQ" elementId="it.uniud.c2pa.handler.0" contributionURI="bundleclass://c2pa/it.uniud.c2pa.commandhandlers.OpenFileCommandHandler" command="_VtAOYJcjEe-1fLZH3mxQvQ"/>
+  <handlers xmi:id="_EtaiIJdiEe-umoVaBn_aLw" elementId="it.uniud.c2pa.handler.1" contributionURI="bundleclass://c2pa/it.uniud.c2pa.commandhandlers.ExitCommandHandler" command="_HckQAJdiEe-umoVaBn_aLw"/>
+  <handlers xmi:id="_iwCYMJtHEe-37snScggf-g" elementId="it.uniud.c2pa.handler.2" contributionURI="bundleclass://c2pa/it.uniud.c2pa.commandhandlers.VerifyAssertionsCommandHandler" command="_dA6SMJtHEe-37snScggf-g"/>
+  <handlers xmi:id="_pMt2AJtuEe-37snScggf-g" elementId="it.uniud.c2pa.handler.3" contributionURI="bundleclass://c2pa/it.uniud.c2pa.commandhandlers.VerifySignatureCommandHandler" command="_m4AocJtuEe-37snScggf-g"/>
+  <handlers xmi:id="_d0SKMJ8IEe-e27bIaK0O9A" elementId="it.uniud.c2pa.handler.4" contributionURI="bundleclass://c2pa/it.uniud.c2pa.commandhandlers.AboutDialogCommandHandler" command="_q_xJgJ8HEe-e27bIaK0O9A"/>
+  <rootContext xmi:id="_c3AF2cjYEeSyMNYR5xypkQ" elementId="org.eclipse.ui.contexts.dialogAndWindow" name="In Dialog and Windows">
+    <children xmi:id="_c3AF2sjYEeSyMNYR5xypkQ" elementId="org.eclipse.ui.contexts.window" name="In Windows"/>
+    <children xmi:id="_c3AF28jYEeSyMNYR5xypkQ" elementId="org.eclipse.ui.contexts.dialog" name="In Dialogs"/>
+  </rootContext>
+  <commands xmi:id="_VtAOYJcjEe-1fLZH3mxQvQ" elementId="it.uniud.c2pa.command.openFile" commandName="Apri immagine..."/>
+  <commands xmi:id="_HckQAJdiEe-umoVaBn_aLw" elementId="it.uniud.c2pa.command.esci" commandName="Esci"/>
+  <commands xmi:id="_dA6SMJtHEe-37snScggf-g" elementId="it.uniud.c2pa.command.verificaAsserzioni" commandName="Verifica asserzioni"/>
+  <commands xmi:id="_m4AocJtuEe-37snScggf-g" elementId="it.uniud.c2pa.command.verificaFirma" commandName="Verifica firma"/>
+  <commands xmi:id="_q_xJgJ8HEe-e27bIaK0O9A" elementId="it.uniud.c2pa.command.aboutDialog" commandName="About"/>
+  <addons xmi:id="_c3AF0sjYEeSyMNYR5xypkQ" elementId="org.eclipse.e4.core.commands.service" contributionURI="bundleclass://org.eclipse.e4.core.commands/org.eclipse.e4.core.commands.CommandServiceAddon"/>
+  <addons xmi:id="_c3AF08jYEeSyMNYR5xypkQ" elementId="org.eclipse.e4.ui.contexts.service" contributionURI="bundleclass://org.eclipse.e4.ui.services/org.eclipse.e4.ui.services.ContextServiceAddon"/>
+  <addons xmi:id="_c3AF1MjYEeSyMNYR5xypkQ" elementId="org.eclipse.e4.ui.bindings.service" contributionURI="bundleclass://org.eclipse.e4.ui.bindings/org.eclipse.e4.ui.bindings.BindingServiceAddon"/>
+  <addons xmi:id="_c3AF1cjYEeSyMNYR5xypkQ" elementId="org.eclipse.e4.ui.workbench.commands.model" contributionURI="bundleclass://org.eclipse.e4.ui.workbench/org.eclipse.e4.ui.internal.workbench.addons.CommandProcessingAddon"/>
+  <addons xmi:id="_c3AF1sjYEeSyMNYR5xypkQ" elementId="org.eclipse.e4.ui.workbench.handler.model" contributionURI="bundleclass://org.eclipse.e4.ui.workbench/org.eclipse.e4.ui.internal.workbench.addons.HandlerProcessingAddon"/>
+  <addons xmi:id="_c3AF18jYEeSyMNYR5xypkQ" elementId="org.eclipse.e4.ui.workbench.contexts.model" contributionURI="bundleclass://org.eclipse.e4.ui.workbench/org.eclipse.e4.ui.internal.workbench.addons.ContextProcessingAddon"/>
+  <addons xmi:id="_c3AF2MjYEeSyMNYR5xypkQ" elementId="org.eclipse.e4.ui.workbench.bindings.model" contributionURI="bundleclass://org.eclipse.e4.ui.workbench.swt/org.eclipse.e4.ui.workbench.swt.util.BindingProcessingAddon"/>
+</application:Application>
