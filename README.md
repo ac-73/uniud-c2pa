@@ -2,9 +2,10 @@
 ***Uniud C2PA manifest viewer***
 
 
-Il seguente progetto &egrave; stato realizzato come appendice al lavoro di tesi conclusivo del <b>Master in Intelligence and Emerging Technologies</b> (edizione 2023/2024), Universit&agrave; degli studi di Udine. 
+Il seguente progetto &egrave; stato realizzato come appendice al lavoro di tesi conclusivo del **Master in Intelligence and Emerging Technologies** (edizione 2023/2024), Universit&agrave; degli studi di Udine. 
 
 Il software &egrave; stato scritto in Java, su piattaforma [Eclipse RCP](https://www.vogella.com/tutorials/EclipseRCP/article.html) e sfrutta la libreria https://github.com/faceless2/c2pa.
+
 ---
 
 Struttura del progetto:
