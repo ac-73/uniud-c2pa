@@ -1,5 +1,5 @@
 # uniud-c2pa
-***Uniud C2PA manifest viewer***
+### ***Uniud C2PA manifest viewer***
 
 
 Il seguente progetto &egrave; stato realizzato come appendice al lavoro di tesi conclusivo del **Master in Intelligence and Emerging Technologies** (edizione 2023/2024), Universit&agrave; degli studi di Udine. 
