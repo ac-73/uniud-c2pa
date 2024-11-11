@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?pde version="3.5"?>
+
+<product name="c2pa" uid="it.uniud.c2pa" id="c2pa.product" application="org.eclipse.e4.ui.workbench.swt.E4Application" version="1.0.0.qualifier" type="mixed" includeLaunchers="true" autoIncludeRequirements="true">
+
+   <aboutInfo>
+      <image path="/c2pa/icons/about.png"/>
+   </aboutInfo>
+
+   <configIni use="default">
+   </configIni>
+
+   <launcherArgs>
+      <programArgs>-clearPersistedState
+      </programArgs>
+      <vmArgsMac>-XstartOnFirstThread -Dorg.eclipse.swt.internal.carbon.smallFonts
+      </vmArgsMac>
+   </launcherArgs>
+
+   <windowImages i16="/c2pa/icons/logo_16.png" i32="/c2pa/icons/logo_32.png" i48="/c2pa/icons/logo_48.png" i64="/c2pa/icons/logo_64.png" i128="/c2pa/icons/logo_128.png" i256="/c2pa/icons/logo_256.png"/>
+
+   <splash
+      location="c2pa" />
+   <launcher name="C2PA">
+      <win useIco="true">
+         <ico path="/c2pa/icons/logo.ico"/>
+         <bmp
+            winSmallHigh="/c2pa/icons/logo_16.bmp"
+            winSmallLow="/c2pa/icons/logo_16_8.bmp"
+            winMediumHigh="/c2pa/icons/logo_32.bmp"
+            winMediumLow="/c2pa/icons/logo_32_8.bmp"
+            winLargeHigh="/c2pa/icons/logo_48.bmp"
+            winLargeLow="/c2pa/icons/logo_48_8.bmp"
+            winExtraLargeHigh="/c2pa/icons/logo_256.bmp"/>
+      </win>
+   </launcher>
+
+
+   <vm>
+      <windows include="true">org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-17</windows>
+   </vm>
+
+   <plugins>
+      <plugin id="c2pa"/>
+   </plugins>
+
+   <features>
+      <feature id="org.eclipse.e4.rcp"/>
+      <feature id="c2pa.rootfiles" installMode="root"/>
+   </features>
+
+   <configurations>
+      <plugin id="org.apache.felix.scr" autoStart="true" startLevel="2" />
+      <plugin id="org.eclipse.core.runtime" autoStart="true" startLevel="0" />
+      <plugin id="org.eclipse.equinox.common" autoStart="true" startLevel="2" />
+      <plugin id="org.eclipse.equinox.event" autoStart="true" startLevel="2" />
+      <plugin id="org.eclipse.equinox.simpleconfigurator" autoStart="true" startLevel="1" />
+   </configurations>
+
+</product>
