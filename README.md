@@ -4,7 +4,8 @@
 
 Il seguente progetto &egrave; stato realizzato come appendice al lavoro di tesi conclusivo del **Master in Intelligence and Emerging Technologies** (edizione 2023/2024), Universit&agrave; degli studi di Udine. 
 
-Il software &egrave; stato scritto in Java, su piattaforma [Eclipse RCP](https://www.vogella.com/tutorials/EclipseRCP/article.html) e sfrutta la libreria https://github.com/faceless2/c2pa.
+Il software &egrave; stato scritto in Java, su piattaforma [Eclipse RCP](https://www.vogella.com/tutorials/EclipseRCP/article.html) e sfrutta la libreria https://github.com/faceless2/c2pa.  
+La versione dell'Eclipse IDE utilizzata è la [2024-03 per RCP e RAP developers](https://www.eclipse.org/downloads/packages/release/2024-03/r/eclipse-ide-rcp-and-rap-developers).
 
 ---
 
